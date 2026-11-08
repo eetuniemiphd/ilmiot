@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="shell header-row">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Ilmiöt – etusivu">
+      <span class="brand-small">EETU NIEMI</span>
+      <span class="brand-main">ILMIÖT<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="primary-nav" aria-label="Päävalikko">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Etusivu</a>
+      <a href="{{ '/artikkelit/' | relative_url }}" {% if page.url contains '/artikkelit/' %}aria-current="page"{% endif %}>Artikkelit</a>
+      <a href="{{ '/seuranta/' | relative_url }}" {% if page.url contains '/seuranta/' %}aria-current="page"{% endif %}>Seurannat</a>
+      <a href="{{ '/periaatteet/' | relative_url }}" {% if page.url == '/periaatteet/' %}aria-current="page"{% endif %}>Periaatteet</a>
+      <a href="{{ '/tietoa/' | relative_url }}" {% if page.url == '/tietoa/' %}aria-current="page"{% endif %}>Tietoa</a>
+    </nav>
+  </div>
+</header>

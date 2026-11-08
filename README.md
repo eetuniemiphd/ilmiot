@@ -1,5 +1,12 @@
 # Eetu Niemi — Ilmiöt
 
+Julkisiin lähteisiin perustuvia artikkeleita ja pysyviä seurantoja monimutkaisista ilmiöistä.
+
+**Sivusto:** https://ilmiot.eetuniemi.fi
+
+**Aloita tästä:** [KAYTTOOHJE.md](KAYTTOOHJE.md)
+
+
 **Monimutkaiset asiat ymmärrettäviksi.**
 
 Ilmiöt on Eetu Niemen riippumaton analyysi- ja seurantajulkaisu.
@@ -43,6 +50,20 @@ Sivusto toteutetaan seuraavilla teknologioilla:
 - Markdown – artikkelit ja sisältösivut
 - YAML – seurantojen tapahtumat ja lähderekisterit
 - HTML ja CSS – ulkoasu sekä kaavioiden esittäminen
+
+- Etusivu näyttää automaattisesti uusimman artikkelin ja seuraavat kuusi.
+- `/artikkelit/` listaa julkaistut artikkelit uusimmasta alkaen.
+- Artikkelit kirjoitetaan `_posts/YYYY-MM-DD-slug.md` -tiedostoiksi.
+- Seurannat, lähdeluettelot ja YAML-pohjainen aikajana säilyvät entisellään.
+- RSS-syöte: `/feed.xml` ja sivukartta: `/sitemap.xml` rakennetaan automaattisesti.
+- Ei CMS:ää, tietokantaa tai JavaScript-riippuvuutta.
+
+Paikallisesti:
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
 Sivusto ei käytä julkaisijan lisäämää kävijäanalytiikkaa, mainosseurantaa tai seurantapikseleitä.
 

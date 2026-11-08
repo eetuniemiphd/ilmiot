@@ -1,0 +1,16 @@
+{% if include.data.sources.size == 0 %}
+<div class="empty-state"><strong>Lähdeluetteloa ei ole vielä julkaistu.</strong><p>Lähdeasiakirjat lisätään yksilöityinä vasta alkuperäisten dokumenttien tarkistamisen jälkeen.</p></div>
+{% else %}
+<ol class="reference-list">
+{% for source in include.data.sources %}
+<li id="lahde-{{ source.id | escape }}">
+  <span class="ref-id">{{ source.id | escape }}</span>
+  <div>
+    <strong><a href="{{ source.url | escape }}" rel="noopener noreferrer">{{ source.title | escape }}</a></strong>
+    <p>{{ source.publisher | escape }}{% if source.published %} · {{ source.published | date: '%-d.%-m.%Y' }}{% endif %}{% if source.kind %} · {{ source.kind | escape }}{% endif %}{% if source.accessed %} · Viitattu {{ source.accessed | date: '%-d.%-m.%Y' }}{% endif %}</p>
+    {% if source.note %}<p>{{ source.note | escape }}</p>{% endif %}
+  </div>
+</li>
+{% endfor %}
+</ol>
+{% endif %}

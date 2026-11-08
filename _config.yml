@@ -1,0 +1,48 @@
+# Eetu Niemi — Ilmiöt | GitHub Pages / Jekyll
+# Omat sisältötekstit kirjoitetaan Markdownilla. Aikajana ja lähteet ovat YAML-dataa.
+title: "Eetu Niemi — Ilmiöt"
+short_title: "Ilmiöt"
+description: "Julkisiin lähteisiin perustuvaa seurantaa ja analyysiä monimutkaisista ilmiöistä, järjestelmistä ja päätöksistä."
+author: "Eetu Niemi"
+url: "https://ilmiot.eetuniemi.fi"
+baseurl: ""
+lang: "fi"
+timezone: "Europe/Helsinki"
+markdown: kramdown
+permalink: /artikkelit/:title/
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      author: "Eetu Niemi"
+
+author_site: "https://eetuniemi.fi"
+# Lisää halutessasi oma julkinen yhteydenottokanava.
+# Älä lisää henkilötietoja ilman omaa harkintaa.
+contact_email: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - KAYTTOOHJE.md
+  - MALLIT
+  - .gitignore
+  - vendor
+  - node_modules
+  - .github
+  - '*.zip'
+
+# jekyll-feed tuottaa RSS-syötteen osoitteeseen /feed.xml.

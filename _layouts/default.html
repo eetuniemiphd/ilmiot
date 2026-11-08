@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f4">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="referrer" content="no-referrer">
+</head>
+<body>
+  <a href="#sisalto" class="skip-link">Siirry sisältöön</a>
+  {% include header.html %}
+  <main id="sisalto" class="shell content-wrap">{{ content }}</main>
+  {% include footer.html %}
+</body>
+</html>
