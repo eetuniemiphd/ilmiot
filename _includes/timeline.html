@@ -1,0 +1,35 @@
+{% assign timeline = include.data.timeline | sort: 'date' | reverse %}
+{% if timeline.size == 0 %}
+  <div class="empty-state"><strong>Ei vielä julkaistuja aikajanamerkintöjä.</strong><p>Tapahtumat lisätään, kun päivämäärät, kuvaukset ja lähteet on tarkistettu.</p></div>
+{% else %}
+  {% assign previous_year = '' %}
+  <div class="timeline">
+  {% for event in timeline %}
+    {% assign year = event.date | date: '%Y' %}
+    {% if year != previous_year %}
+      {% if previous_year != '' %}</ol>{% endif %}
+      <h2 class="timeline-year" id="vuosi-{{ year }}">{{ year }}</h2>
+      <ol class="timeline-items">
+      {% assign previous_year = year %}
+    {% endif %}
+      <li class="timeline-item" id="{{ event.id | escape }}">
+        <div class="timeline-card">
+          <div class="timeline-meta"><time datetime="{{ event.date | escape }}">{{ event.date | date: '%-d.%-m.%Y' }}</time><span class="tag">{{ event.category | escape }}</span></div>
+          <h3>{{ event.title | escape }}</h3>
+          <p>{{ event.summary | escape }}</p>
+          {% if event.attribution %}<p class="attribution"><strong>Lähteen mukaan:</strong> {{ event.attribution | escape }}</p>{% endif %}
+          {% if event.source_ids.size > 0 %}
+          <div class="source-refs"><strong>Lähteet:</strong>
+            {% for source_id in event.source_ids %}
+              {% assign source = include.data.sources | where: 'id', source_id | first %}
+              {% if source %}
+                <a href="{{ source.url | escape }}" rel="noopener noreferrer" aria-label="Lähde {{ source.id | escape }}: {{ source.title | escape }}">[{{ source.id | escape }}] {{ source.publisher | escape }}</a>{% unless forloop.last %} · {% endunless %}
+              {% else %}<span class="missing-source">[{{ source_id | escape }}] lähde puuttuu</span>{% endif %}
+            {% endfor %}
+          </div>
+          {% else %}<p class="missing-source">Lähdeviite puuttuu — älä julkaise tätä tapahtumaa.</p>{% endif %}
+        </div>
+      </li>
+  {% endfor %}
+  </ol></div>
+{% endif %}

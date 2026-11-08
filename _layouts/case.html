@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign dossier = site.data.cases[page.case_key] %}
+{% assign recent_changes = dossier.changes | sort: 'date' | reverse %}
+{% assign latest_change = recent_changes | first %}
+{% assign last_updated = dossier.started %}
+{% if latest_change %}{% assign last_updated = latest_change.date %}{% endif %}
+<nav class="breadcrumbs" aria-label="Murupolku"><a href="{{ '/seuranta/' | relative_url }}">Seurannat</a><span aria-hidden="true">/</span><span>{{ page.title | escape }}</span></nav>
+<header class="case-head">
+  <p class="eyebrow">Seuranta · {{ dossier.status | escape }}</p>
+  <h1>{{ page.title | escape }}</h1>
+  <p class="lead">{{ page.lead | escape }}</p>
+  <div class="meta-row"><span>Tekijä: {{ site.author | escape }}</span><span>Viimeksi päivitetty {{ last_updated | date: '%-d.%-m.%Y' }}</span></div>
+</header>
+<nav class="case-nav" aria-label="Tämän seurannan sivut">
+  <a href="{{ '/seuranta/helsingin-tietomurto-2024/' | relative_url }}">Yhteenveto</a>
+  <a href="{{ '/seuranta/helsingin-tietomurto-2024/aikajana/' | relative_url }}">Aikajana</a>
+  <a href="{{ '/seuranta/helsingin-tietomurto-2024/lahteet/' | relative_url }}">Lähteet</a>
+</nav>
+{% if dossier.status == 'Valmistelussa' %}
+<div class="notice" role="note"><strong>Sivun tila: valmistelussa.</strong> Tämä on julkaisun alustava runko. Tapahtumia ja lähdetietoja lisätään vasta alkuperäislähteistä tarkistamisen jälkeen.</div>
+{% endif %}
+<div class="prose prose-wide">{{ content }}</div>

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% unless page.hide_page_heading %}
+<header class="page-heading prose-narrow">
+  {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow | escape }}</p>{% endif %}
+  <h1>{{ page.heading | default: page.title | escape }}</h1>
+  {% if page.lead %}<p class="lead">{{ page.lead | escape }}</p>{% endif %}
+</header>
+{% endunless %}
+<div class="prose {% if page.wide %}prose-wide{% else %}prose-narrow{% endif %}">{{ content }}</div>

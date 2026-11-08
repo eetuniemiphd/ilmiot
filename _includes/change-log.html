@@ -1,0 +1,11 @@
+{% if include.data.changes.size == 0 %}
+<p class="muted">Ensimmäisiä lähdepohjaisia päivityksiä ei ole vielä julkaistu.</p>
+{% else %}
+<ul class="change-log">
+  {% assign changes = include.data.changes | sort: 'date' | reverse %}
+  {% for change in changes %}
+  <li><time datetime="{{ change.date | escape }}">{{ change.date | date: '%-d.%-m.%Y' }}</time><span>{{ change.description | escape }}</span>
+  {% if change.source_ids.size > 0 %}<small>Lähteet: {% for id in change.source_ids %}<a href="{{ '/seuranta/helsingin-tietomurto-2024/lahteet/' | relative_url }}#lahde-{{ id | escape }}">{{ id | escape }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</small>{% endif %}</li>
+  {% endfor %}
+</ul>
+{% endif %}
