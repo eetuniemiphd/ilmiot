@@ -1,15 +1,14 @@
 ---
 layout: case
 case_key: helsingin_tietomurto
-title: Tapahtumien aikajana
-lead: "Aikajanan merkinnät muodostuvat järjestetystä tapahtumadatasta ja linkittyvät yksilöityihin lähteisiin."
+title: "Helsingin tietomurto 2024 – aikajana"
+description: "Lähteistetty aikajana Helsingin tietomurrosta, sen havaitsemisesta ja keskeisistä jatkotoimista."
+lead: "Tietomurron, tiedottamisen, tutkintojen ja korjaustoimien keskeiset tapahtumat päivämäärineen."
 permalink: /seuranta/helsingin-tietomurto-2024/aikajana/
 ---
 
-Aikajanalle lisätään vain päivättyjä tapahtumia, joiden sisältö voidaan tarkistaa julkaistusta alkuperäislähteestä. Tapahtumakortti erottaa itse tapahtuman lähteessä esitetystä tulkinnasta.
+Aikajanan nykyiset merkinnät kattavat vuodet 2024–2025 ja ovat uusimmasta vanhimpaan. Tapahtumakorttien lähdelinkit vievät suoraan asiakirjoihin tai uutisiin. Samat tunnisteet löytyvät [aikajanan lähderekisteristä]({{ '/seuranta/helsingin-tietomurto-2024/lahteet/' | relative_url }}).
+
+Yksittäisten korvausvaatimusten, kantelujen ja muiden asioiden viimeiset löydetyt julkiset vaiheet, myös vuoden 2026 tiedot, löytyvät sivulta [Menettelyt ja päätökset]({{ '/seuranta/helsingin-tietomurto-2024/menettelyt/' | relative_url }}).
 
 {% include timeline.html data=site.data.cases.helsingin_tietomurto %}
-
-### Merkintöjen lukeminen
-
-Päivämäärä kertoo tapahtuman ajan. Lähdeviite `[H001]` (kun lähteitä on lisätty) osoittaa [lähderekisteriin]({{ '/seuranta/helsingin-tietomurto-2024/lahteet/' | relative_url }}) ja mahdollisuuksien mukaan suoraan alkuperäiseen dokumenttiin. Jos tapahtuman tarkka ajankohta on epävarma, sitä ei esitetä täsmällisenä päivämääränä ilman selitystä.

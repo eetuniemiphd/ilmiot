@@ -1,18 +1,14 @@
 ---
 layout: case
 case_key: helsingin_tietomurto
-title: Lähteet ja asiakirjat
-lead: "Tapauksen lähderekisteri: mitä asiakirjoja on käytetty ja mihin havaintoihin ne liittyvät."
+title: "Helsingin tietomurto 2024 – aikajanan lähteet"
+description: "Helsingin kaupungin vuoden 2024 tietomurron aikajanalla käytetyt asiakirjat, tiedotteet ja uutiset lähdetunnuksineen."
+lead: "Tästä löydät asiakirjat, tiedotteet ja uutiset, joihin aikajanan merkinnät perustuvat."
 permalink: /seuranta/helsingin-tietomurto-2024/lahteet/
 ---
 
-Lähderekisteriin merkitään asiakirjan nimi, julkaisija, päiväys, lähdetyyppi, linkki ja viittauspäivä. Jokaiselle lähteelle annetaan pysyvä tunniste, esimerkiksi `H001`, jota käytetään aikajanalla ja analyysissä.
+Jos aikajanalla lukee `H001`, etsi sama tunnus tästä luettelosta. Julkaisupäivä kertoo, milloin lähde julkaistiin. Viittauspäivä kertoo, milloin viittasin siihen tässä seurannassa. Päivämäärä näkyy vain, jos se on kirjattu lähdetietoihin.
+
+[Menettelyt ja päätökset]({{ '/seuranta/helsingin-tietomurto-2024/menettelyt/' | relative_url }}) -sivulla ja [tietomurtoa käsittelevässä analyysissä]({{ '/artikkelit/helsingin-tietomurto-analyysi/' | relative_url }}) on myös muita lähteitä. Niiden linkit löydät suoraan tekstistä.
 
 {% include source-list.html data=site.data.cases.helsingin_tietomurto %}
-
-### Lähteiden käsittelyn periaatteet
-
-- Ensisijaisesti alkuperäiset päätökset, viranomaisasiakirjat, raportit ja muut suorat lähteet.
-- Uutisia ja toissijaisia yhteenvetoja voidaan käyttää tutkimuksen apuna, mutta niiden väitteet pyritään tarkistamaan alkuperäisaineistosta.
-- Julkaisussa yksilöidään, mikä on lähteen oma väite ja mikä julkaisijan tulkinta.
-- Korjaukset tehdään näkyvästi, jos lähteitä on tulkittu virheellisesti.

@@ -1,20 +1,20 @@
 ---
 title: Etusivu
-description: "Eetu Niemi — Ilmiöt. Artikkeleita, analyysejä ja julkisiin lähteisiin perustuvaa seurantaa monimutkaisista ilmiöistä."
+description: "Eetu Niemen artikkeleita ilmiöistä, järjestelmistä, päätöksenteosta ja tapahtumien taustoista. Pitkäkestoiset seurannat perustuvat julkisiin lähteisiin."
 permalink: /
 layout: default
 ---
 <section class="editorial-intro" aria-labelledby="intro-heading">
   <p class="eyebrow">EETU NIEMI · ILMIÖT</p>
-  <h1 id="intro-heading">Seurantaa ja <em>analyysiä.</em></h1>
-  <p class="lead">Julkisiin lähteisiin perustuvia artikkeleita ja pitkäkestoista seurantaa monimutkaisista ilmiöistä, järjestelmistä ja päätöksistä.</p>
+  <h1 id="intro-heading">Analyysiä ja <em>seurantaa.</em></h1>
+  <p class="lead">>Kirjoitan siitä, miten järjestelmät toimivat, miksi tiettyihin päätöksiin päädytään ja mitä niistä seuraa. Pitkäkestoisissa seurannoissa kokoan julkisista lähteistä tapahtumien aikajanan ja palaan aiheeseen, kun uutta tietoa saadaa.</p>
 </section>
 
 {% assign articles = site.posts %}
 {% if articles.size > 0 %}
   {% assign newest = articles.first %}
   <section class="latest-article" aria-labelledby="latest-heading">
-    <div class="section-heading"><div><p class="eyebrow">UUSIN JULKAISU</p><h2 id="latest-heading" class="visually-hidden">Uusin artikkeli</h2></div></div>
+    <div class="section-heading"><div><p class="eyebrow">UUSIN ARTIKKELI</p><h2 id="latest-heading" class="visually-hidden">Uusin artikkeli</h2></div></div>
     <article class="headline-article{% if newest.image %} has-image{% endif %}">
       {% if newest.image %}
       <a class="headline-media" href="{{ newest.url | relative_url }}" aria-label="Lue artikkeli: {{ newest.title | escape }}">
@@ -33,7 +33,7 @@ layout: default
   {% assign next_articles = articles | slice: 1, 6 %}
   {% if next_articles.size > 0 %}
   <section class="home-section" aria-labelledby="recent-heading">
-    <div class="section-heading"><div><p class="eyebrow">ARTIKKELIT</p><h2 id="recent-heading">Viimeisimmät kirjoitukset</h2></div><a href="{{ '/artikkelit/' | relative_url }}">Kaikki artikkelit <span aria-hidden="true">↗</span></a></div>
+    <div class="section-heading"><div><p class="eyebrow">ARTIKKELIT</p><h2 id="recent-heading">Muita tuoreita kirjoituksia</h2></div><a href="{{ '/artikkelit/' | relative_url }}">Kaikki artikkelit <span aria-hidden="true">↗</span></a></div>
     <div class="post-grid">
       {% for post in next_articles %}
       <article class="post-card">
@@ -52,15 +52,15 @@ layout: default
   {% endif %}
 {% else %}
   <section class="home-section" aria-labelledby="recent-heading">
-    <div class="section-heading"><div><p class="eyebrow">ARTIKKELIT</p><h2 id="recent-heading">Viimeisimmät kirjoitukset</h2></div></div>
-    <p class="section-intro">Ensimmäiset artikkelit julkaistaan niiden valmistuttua. Uudet kirjoitukset tulevat tälle etusivulle automaattisesti.</p>
+    <div class="section-heading"><div><p class="eyebrow">ARTIKKELIT</p><h2 id="recent-heading">Kirjoitukset</h2></div></div>
+    <p class="section-intro">Ensimmäiset kirjoitukset ovat tekeillä.</p>
   </section>
 {% endif %}
 <section class="home-section follow-section" aria-labelledby="seurannat-heading">
-  <div class="section-heading"><div><p class="eyebrow">JATKUVA SEURANTA</p><h2 id="seurannat-heading">Seurannat</h2></div><a href="{{ '/seuranta/' | relative_url }}">Kaikki seurannat <span aria-hidden="true">↗</span></a></div>
+  <div class="section-heading"><div><p class="eyebrow">PÄIVITTYVÄT AIHEKOKONAISUUDET</p><h2 id="seurannat-heading">Seurannat</h2></div><a href="{{ '/seuranta/' | relative_url }}">Kaikki seurannat <span aria-hidden="true">↗</span></a></div>
   <a class="feature-card" href="{{ '/seuranta/helsingin-tietomurto-2024/' | relative_url }}">
-    <div><span class="pill">Valmistelussa</span><h3>Helsingin tietomurto 2024</h3><p>Tapahtumien, selvitysten, päätösten ja avoimien kysymysten dokumentoitu seurantarunko. Lähteisiin perustuva sisältö täydentyy tutkimustyön jälkeen.</p></div>
+    <div><span class="pill">Valmistelussa</span><h3>Helsingin tietomurto 2024</h3><p>Kokoan Helsingin kaupungin tietomurrosta aikajanan sekä siihen liittyvät selvitykset ja päätökset. Mitä tapahtui, mitä saatiin selville ja mikä on vielä auki?</p></div>
     <span class="feature-arrow" aria-hidden="true">↗</span>
   </a>
 </section>
-<section class="method-banner"><div><p class="eyebrow">JULKAISUPERIAATE</p><h2>Dokumentoi ensin. Tulkitse vasta sitten.</h2></div><p>Lähteet, väitteet, oma analyysi ja avoimet kysymykset erotetaan toisistaan. <a href="{{ '/periaatteet/' | relative_url }}">Lue toimitukselliset periaatteet ↗</a></p></section>
+<section class="method-banner"><div><p class="eyebrow">JULKAISUPERIAATE</p><h2>Mihin tieto perustuu?</h2></div><p>Kerron, mitä lähteet osoittavat, mitä muut asiasta sanovat ja mitä itse päättelen. Jos jokin jää epäselväksi, kerron senkin. <a href="{{ '/periaatteet/' | relative_url }}">Lue toimitukselliset periaatteet ↗</a></p></section>

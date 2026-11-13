@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Ilmiöt">
-<rect width="64" height="64" rx="13" fill="#15273c"/>
-<path d="M17 46V18h7v28zm11 0V18h7v28zm11 0V18h7v28z" fill="#f8f7f4"/>
-<circle cx="49" cy="47" r="4" fill="#cf724d"/>
+  <title>Ilmiöt — I.</title>
+  <rect width="64" height="64" rx="13" fill="#1C2D33"/>
+  <!-- Geometrinen I-kirjain muistuttaa julkaisun sanamerkin selkeää typografiaa. -->
+  <path d="M15 14h26v7h-8.5v22H41v7H15v-7h8.5V21H15z" fill="#FFFFFF"/>
+  <circle cx="50" cy="45.5" r="5.3" fill="#32C5BF"/>
 </svg>
