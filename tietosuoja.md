@@ -16,7 +16,7 @@ Tietovuodoista kirjoittaessani en julkaise vuotanutta aineistoa. Jätän pois ta
 
 **Journalistinen poikkeus.** Kun henkilötietoja käsitellään ainoastaan journalistisiin tarkoituksiin, [tietosuojalain 27 §](https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2018/1050) rajaa osan EU:n yleisen tietosuoja-asetuksen (GDPR) säännöistä pois tai sovellettaviksi vain soveltuvin osin. Ratkaisevaa on se, mihin tietoa käytetään, ei se, julkaiseeko jutun sanomalehti vai yksittäinen kirjoittaja. Poikkeus koskee journalistista työtä, ei automaattisesti kaikkea sivustoon liittyvää henkilötietojen käsittelyä.
 
-**Oma kotisivu ja kotitalouspoikkeus.** tietosuoja-asetuksen 2 artiklan 2 kohdan c alakohdan poikkeus koskee puhtaasti henkilökohtaista tai kotitaloutta koskevaa toimintaa. Se ei ole yleinen poikkeus omille kotisivuille. Ilmiöt on avoin verkkojulkaisu, enkä perusta henkilötietojen julkaisemista siihen, että teen sivustoa yksityishenkilönä.
+**Oma kotisivu ja kotitalouspoikkeus.** tietosuoja-asetuksen 2 artiklan 2 kohdan c alakohdan poikkeus koskee puhtaasti henkilökohtaista tai kotitaloutta koskevaa toimintaa. Se ei ole yleinen poikkeus omille kotisivuille. Ilmiöt on avoin julkaisu, enkä perusta henkilötietojen julkaisemista siihen, että teen sivustoa yksityishenkilönä.
 
 EN käytä kumpaakaan poikkeusta tekosyyynä julkaista henkilötietoa vain siksi, että se on saatavilla. Kysyn mieluummin, mitä lukija ymmärtää paremmin, jos tieto on mukana, ja mitä haittaa julkaisemisesta voi koitua.
 

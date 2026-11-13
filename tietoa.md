@@ -6,7 +6,7 @@ eyebrow: Julkaisijasta
 lead: "Teen Ilmiöitä omalla nimelläni ja omalla ajallani. Kirjoitan aiheista, joihin tekee mieli palata vielä senkin jälkeen, kun ne ovat kadonneet uutisista."
 ---
 
-Ilmiöt on riippumaton verkkojulkaisu, jossa kirjoitan järjestelmistä, päätöksistä ja niiden seurauksista. Julkaisen itsenäisiä artikkeleita ja seuraan pidempään aiheita, joista tieto on hajallaan. Selvitän julkisista asiakirjoista ja muista lähteistä, mitä on tapahtunut ja mikä on vielä auki. Julkaisen harvakseltaan ja päivitän seurantoja, kun saan uutta olennaista tietoa ja pystyn tarkistamaan sen.
+Ilmiöt on riippumaton julkaisu, jossa kirjoitan järjestelmistä, päätöksistä ja niiden seurauksista. Julkaisen itsenäisiä artikkeleita ja seuraan pidempään aiheita, joista tieto on hajallaan. Selvitän julkisista asiakirjoista ja muista lähteistä, mitä on tapahtunut ja mikä on vielä auki. Julkaisen harvakseltaan ja päivitän seurantoja, kun saan uutta olennaista tietoa ja pystyn tarkistamaan sen.
 
 Työssäni kokonaisarkkitehtuurin, teknologian ja organisaatioiden kehittämisen parissa olen tottunut selvittämään, miten asiat kytkeytyvät toisiinsa ja mitä niistä käytännössä seuraa. Samasta näkökulmasta voi tarkastella vaikkapa kaupunkisuunnittelua, tietoturvaa tai sijoittamista. Otan myös kantaa ja kerron, mihin tulkintani perustuvat.
 
