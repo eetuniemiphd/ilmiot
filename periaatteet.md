@@ -1,53 +1,54 @@
 ---
 title: Toimitukselliset periaatteet
+description: "Näin Ilmiöt tarkistaa lähteet, erottaa tiedon tulkinnasta ja korjaa virheet artikkeleissa ja seurannoissa."
 permalink: /periaatteet/
 eyebrow: Menetelmä
-lead: "Lukijan pitää voida erottaa tarkistettu tieto, lähteen väite, oma analyysi ja avoin kysymys."
+lead: "Lukijan pitää voida tarkistaa, mihin tieto perustuu, ja erottaa siitä se, mitä itse päättelen."
 ---
 
-**Eetu Niemi — Ilmiöt** on omaan nimeeni perustuva riippumaton seurantaa ja analyysiä julkaiseva sivusto. Tarkoituksena on rakentaa hajallaan olevista julkisista tiedoista tarkistettavia, ymmärrettäviä kokonaisuuksia.
+Ilmiöt on riippumaton verkkojulkaisu, jossa julkaisen analyysejä ja pitkäkestoisia seurantoja. Kun päätökset, selvitykset ja tapahtumat ovat hajallaan eri lähteissä, kokoan ne yhteen. Lukijan pitää päästä halutessaan katsomaan samoja asiakirjoja kuin minäkin.
 
-## 1. Julkiset lähteet ensin
+## 1. Alkuperäiset lähteet ensin
 
-Pyrin palauttamaan olennaiset tosiasiaväitteet mahdollisimman suoraan alkuperäisiin dokumentteihin, kuten päätöksiin, raportteihin, viranomaisasiakirjoihin ja oikeuden ratkaisuihin. Uutinen voi olla hyödyllinen johtolanka, mutta se ei automaattisesti korvaa ensisijaista lähdettä.
+Jos kirjoitan päätöksestä, etsin itse päätöksen. Jos kirjoitan selvityksen tuloksista, luen selvityksen. Käytän lähteinä esimerkiksi viranomaisasiakirjoja, tutkimuksia, tilastoja ja tuomioistuinten ratkaisuja. Uutinen voi auttaa löytämään olennaisen asiakirjan, antaa sille taustaa tai tuoda esiin tietoa, jota virallisesta asiakirjasta ei löydy.
 
-## 2. Neljä eri asiaa pidetään erillään
+## 2. Mitä tiedetään ja mitä siitä voi päätellä?
 
 <div class="principle-grid">
-<div class="principle fact"><strong>Dokumentoitu tieto</strong><p>Väite, jonka sisältö ja yhteys lähteeseen voidaan tarkistaa.</p></div>
-<div class="principle attribution"><strong>Lähteen mukaan</strong><p>Viranomaisen, organisaation tai muun lähteen ilmoittama tieto, jonka esittäjä yksilöidään.</p></div>
-<div class="principle analysis"><strong>Oma analyysi</strong><p>Havaintoihin perustuva johtopäätös tai tulkinta, jota ei esitetä lähteen suorana toteamuksena.</p></div>
-<div class="principle question"><strong>Avoin kysymys</strong><p>Asia, josta julkinen aineisto ei vielä anna riittävää vastausta.</p></div>
+<div class="principle fact"><strong>Dokumentoitu tieto</strong><p>Asia, jonka lähde osoittaa ja jonka lukija voi tarkistaa.</p></div>
+<div class="principle attribution"><strong>Lähteen mukaan</strong><p>Mitä henkilö tai organisaatio kertoo. Nimeän esittäjän ja teen selväksi, jos tieto on hänen tai organisaation oma väitteensä.</p></div>
+<div class="principle analysis"><strong>Oma analyysi</strong><p>Oma tulkintani siitä, mitä havainnot tarkoittavat. Kerron, mihin tulkinta perustuu.</p></div>
+<div class="principle question"><strong>Avoin kysymys</strong><p>Asia, johon käytettävissä olevista lähteistä ei löydy riittävää vastausta.</p></div>
 </div>
 
-## 3. Järjestelmät ennen syyllisten etsintää
+## 3. Miten vastuut oli järjestetty?
 
-Tarkastelun kohteena ovat esimerkiksi vastuut, päätöksenteko, tiedonkulku, kontrollit, riippuvuudet ja kannustimet. Yksittäisten ihmisten nimeämiselle ja voimakkaalle arvostelulle on oltava selkeä yleinen merkitys ja riittävä näyttö.
+Kun jokin menee pieleen, aloitan siitä, miten työnjako oli järjestetty, kuka teki päätökset ja miten tieto kulki. Minua kiinnostaa myös, millä keinoilla ongelmia oli tarkoitus ehkäistä ja miksi ne eivät riittäneet. Joskus samat kysymykset auttavat ymmärtämään, miksi jokin onnistui.
 
-Julkisessa asiakirjassa esiintyvä henkilön nimi ei yksin ole syy julkaista sitä. Arvioin tapauskohtaisesti, onko henkilöllisyyden esittäminen välttämätöntä asian ymmärtämiseksi.
+Mainitsen henkilön nimeltä, jos hänen henkilöllisyytensä on olennainen asian ymmärtämiseksi. Nimen löytyminen julkisesta asiakirjasta ei yksin riitä. Jos arvostelen jonkun toimintaa voimakkaasti, arvostelulla pitää olla yleistä merkitystä ja sen tueksi riittävä näyttö.
 
 ## 4. Virheet ja päivitykset näkyviin
 
-Pysyvien seurantasivujen yhteydessä julkaistaan olennaisten muutosten historia. Jos merkittävä tieto korjataan, korjaus ja sen syy kerrotaan näkyvästi sen sijaan, että asia muutettaisiin huomaamatta. Vähäisiä kielenhuollollisia korjauksia ei tarvitse eritellä.
+Jos korjaan olennaisen asiavirheen, kerron kirjoituksen yhteydessä, mitä korjasin ja miksi. Seurantojen muutoshistoriaan kirjaan myös olennaiset päivitykset, jotka johtuvat uudesta tiedosta. Kirjoitusvirheistä en pidä kirjaa.
 
-## 5. Kommentointimahdollisuus, kun asia sitä edellyttää
+Jos huomaat virheen, löydät yhteystietoni sivulta [Tietoa Ilmiöt-julkaisusta]({{ '/tietoa/' | relative_url }}).
 
-Kun julkaisu sisältää yksilöityyn henkilöön tai organisaatioon kohdistuvaa merkittävää uutta tai voimakasta kielteistä kritiikkiä, pyrin varaamaan asianomaiselle tilaisuuden kommentoida ennen julkaisua soveltuvissa tilanteissa.
+## 5. Mahdollisuus vastata kritiikkiin
+
+Jos kirjoitus sisältää merkittävää uutta tai voimakasta kielteistä kritiikkiä henkilöä tai organisaatiota kohtaan, pyrin antamaan kritiikin kohteelle tilaisuuden vastata ennen julkaisua. Kerron, mitä kritiikki koskee, jotta siihen voi vastata.
 
 ## 6. Tekoälyn käyttö
 
-Tekoälyä voidaan käyttää julkisten lähteiden jäsentämiseen, vertailemiseen ja tekstin työstämiseen. **Tekoäly ei ole julkaisun tietolähde.** Tarkistan julkaistavat faktat alkuperäisistä lähteistä ja vastaan itse julkaistusta sisällöstä. Vältän tarpeettomien henkilötietojen siirtämistä AI-palveluihin.
+Käytän tekoälyä apuna esimerkiksi aineiston jäsentämisessä, lähteiden vertailussa, tekstin muokkaamisessa ja tiedon hakemisessa. **Tekoäly itsessään ei ole tietolähde.** Tarkistan julkaistavat tiedot lähteistä ja vastaan itse siitä, mitä julkaisen. Vältän tarpeettomien henkilötietojen syöttämistä tekoälypalveluihin.
 
 ## 7. Riippumattomuus ja sidonnaisuudet
 
-Julkaisen sivustoa yksityishenkilönä ja riippumattomasti omalla nimelläni. Sivustolla esitetyt näkemykset ovat omiani eivätkä edusta työnantajani tai sen asiakkaiden näkemyksiä.
+Teen Ilmiöitä omalla nimelläni ja omalla ajallani. Kirjoituksissa esitän omia näkemyksiäni, en työnantajani tai sen asiakkaiden kantoja. En käytä julkaisuissa työssäni saamiani luottamuksellisia tietoja.
 
-Seurannat ja analyysit perustuvat julkisesti saatavilla oleviin, julkaisuissa yksilöityihin lähteisiin. En käytä sivustolla työssäni saamaani luottamuksellista asiakas- tai muuta tietoa.
+Jos minulla on aiheeseen olennainen henkilökohtainen, taloudellinen tai ammatillinen sidonnaisuus, kerron siitä kirjoituksen yhteydessä.
 
-Jos minulla on käsiteltävään aiheeseen olennainen henkilökohtainen tai ammatillinen sidonnaisuus, kerron siitä kyseisen julkaisun yhteydessä.
+## 8. Journalistin ohjeet ja vastuu julkaisusta
 
-## 8. Vertailukohta ja vastuu
+Käytän [Julkisen sanan neuvoston Journalistin ohjeita](https://jsn.fi/journalistin-ohjeet/) vertailukohtana etenkin tietojen tarkistamisessa, virheiden korjaamisessa ja kritiikin kohteen kuulemisessa. Ohjeiden käyttäminen vertailukohtana ei itsessään tarkoita, että Ilmiöt kuuluisi JSN:n toimivallan piiriin.
 
-Pidän [Julkisen sanan neuvoston Journalistin ohjeita](https://jsn.fi/journalistin-ohjeet/) hyödyllisenä vapaaehtoisena vertailukohtana tietojen tarkistamisessa, virheiden korjaamisessa ja kohteen kuulemisessa. Tämä ei tarkoita, että sivusto olisi automaattisesti JSN:n toimivallan piirissä.
-
-Julkaisuista vastaa Eetu Niemi. Mahdolliset oikeudelliset velvoitteet ja henkilötietojen käsittely arvioidaan toiminnan luonteen mukaan; journalistisuus ei ole yleinen poikkeus kaikista tietosuojavelvoitteista.
+Ilmiöiden sisällöstä vastaa Eetu Niemi.

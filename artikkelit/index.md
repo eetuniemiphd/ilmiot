@@ -1,10 +1,12 @@
 ---
 title: Artikkelit
+description: "Eetu Niemen analyysejä, taustoituksia ja omiin kokemuksiin perustuvia kirjoituksia yhteiskunnasta, teknologiasta ja taloudesta."
 permalink: /artikkelit/
 eyebrow: Julkaisut
-lead: "Analyysejä, taustoituksia ja kokemuksiin perustuvia kirjoituksia monimutkaisista ilmiöistä."
+lead: "Kirjoitan siitä, miten järjestelmät toimivat, miksi tiettyihin ratkaisuihin päädytään ja mitä niistä seuraa."
 ---
-Artikkeleissa voidaan käsitellä seurattavia tapauksia tai itsenäisiä aiheita. Kirjoitusten tyyppi käy ilmi otsikon yhteydessä. Julkaisut perustuvat tarkistettuihin lähteisiin ja erottavat dokumentoidun tiedon kirjoittajan tulkinnasta.
+
+Mitä kaupungin päätöksestä seurasi käytännössä? Mitä piensijoittaja saa tietää yhtiöstä, jonka osakkeilla ei käydä kauppaa pörssissä? Tällaisista kysymyksistä jutut usein lähtevät liikkeelle. Jos aiheesta on myös seuranta, jutun yhteydessä on linkki sinne. Seurannasta näet, mitä tapahtui aiemmin ja mitä asiasta on sittemmin saatu selville.
 
 {% assign articles = site.posts %}
 {% if articles.size > 0 %}
@@ -24,5 +26,5 @@ Artikkeleissa voidaan käsitellä seurattavia tapauksia tai itsenäisiä aiheita
 {% endfor %}
 </div>
 {% else %}
-<div class="empty-state"><strong>Artikkelit julkaistaan tänne.</strong><p>Julkaistut artikkelit ilmestyvät automaattisesti myös etusivulle.</p></div>
+<div class="empty-state"><strong>Ensimmäiset artikkelit ovat tekeillä.</strong><p>Uudet kirjoitukset näkyvät myös etusivulla.</p></div>
 {% endif %}

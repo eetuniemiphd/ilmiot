@@ -2,23 +2,39 @@
 layout: default
 ---
 {% assign dossier = site.data.cases[page.case_key] %}
-{% assign recent_changes = dossier.changes | sort: 'date' | reverse %}
-{% assign latest_change = recent_changes | first %}
-{% assign last_updated = dossier.started %}
-{% if latest_change %}{% assign last_updated = latest_change.date %}{% endif %}
-<nav class="breadcrumbs" aria-label="Murupolku"><a href="{{ '/seuranta/' | relative_url }}">Seurannat</a><span aria-hidden="true">/</span><span>{{ page.title | escape }}</span></nav>
-<header class="case-head">
-  <p class="eyebrow">Seuranta · {{ dossier.status | escape }}</p>
-  <h1>{{ page.title | escape }}</h1>
-  <p class="lead">{{ page.lead | escape }}</p>
-  <div class="meta-row"><span>Tekijä: {{ site.author | escape }}</span><span>Viimeksi päivitetty {{ last_updated | date: '%-d.%-m.%Y' }}</span></div>
-</header>
-<nav class="case-nav" aria-label="Tämän seurannan sivut">
-  <a href="{{ '/seuranta/helsingin-tietomurto-2024/' | relative_url }}">Yhteenveto</a>
-  <a href="{{ '/seuranta/helsingin-tietomurto-2024/aikajana/' | relative_url }}">Aikajana</a>
-  <a href="{{ '/seuranta/helsingin-tietomurto-2024/lahteet/' | relative_url }}">Lähteet</a>
+{% assign latest_change = dossier.changes | sort: 'date' | last %}
+{% assign case_root = '/seuranta/helsingin-tietomurto-2024/' %}
+{% assign timeline_url = case_root | append: 'aikajana/' %}
+{% assign proceedings_url = case_root | append: 'menettelyt/' %}
+{% assign sources_url = case_root | append: 'lahteet/' %}
+
+<nav class="breadcrumbs" aria-label="Murupolku">
+  <a href="{{ '/seuranta/' | relative_url }}">Seurannat</a>
+  {% unless page.url == case_root %}
+  <span aria-hidden="true">/</span>
+  <a href="{{ case_root | relative_url }}">Helsingin tietomurto 2024</a>
+  {% endunless %}
+  <span aria-hidden="true">/</span>
+  <span aria-current="page">{{ page.title | escape }}</span>
 </nav>
-{% if dossier.status == 'Valmistelussa' %}
-<div class="notice" role="note"><strong>Sivun tila: valmistelussa.</strong> Tämä on julkaisun alustava runko. Tapahtumia ja lähdetietoja lisätään vasta alkuperäislähteistä tarkistamisen jälkeen.</div>
-{% endif %}
+
+<header class="case-head">
+  <p class="eyebrow">Seuranta{% if dossier.status and dossier.status != 'Julkaistu' %} · {{ dossier.status | escape }}{% endif %}</p>
+  <h1>{{ page.title | escape }}</h1>
+  {% if page.lead %}<p class="lead">{{ page.lead | escape }}</p>{% endif %}
+  <div class="meta-row">
+    <span>Tekijä: {{ site.author | escape }}</span>
+    {% if latest_change %}
+    <span>Seuranta päivitetty <time datetime="{{ latest_change.date | escape }}">{{ latest_change.date | date: '%-d.%-m.%Y' }}</time></span>
+    {% endif %}
+  </div>
+</header>
+
+<nav class="case-nav" aria-label="Helsingin tietomurron seurantasivut">
+  <a href="{{ case_root | relative_url }}"{% if page.url == case_root %} aria-current="page"{% endif %}>Yhteenveto</a>
+  <a href="{{ timeline_url | relative_url }}"{% if page.url == timeline_url %} aria-current="page"{% endif %}>Aikajana</a>
+  <a href="{{ proceedings_url | relative_url }}"{% if page.url == proceedings_url %} aria-current="page"{% endif %}>Menettelyt ja päätökset</a>
+  <a href="{{ sources_url | relative_url }}"{% if page.url == sources_url %} aria-current="page"{% endif %}>Lähteet</a>
+</nav>
+
 <div class="prose prose-wide">{{ content }}</div>
