@@ -4,9 +4,6 @@ Julkisiin lähteisiin perustuvia artikkeleita ja pysyviä seurantoja monimutkais
 
 **Sivusto:** https://ilmiot.eetuniemi.fi
 
-**Aloita tästä:** [KAYTTOOHJE.md](KAYTTOOHJE.md)
-
-
 **Monimutkaiset asiat ymmärrettäviksi.**
 
 Ilmiöt on Eetu Niemen riippumaton analyysi- ja seurantajulkaisu.

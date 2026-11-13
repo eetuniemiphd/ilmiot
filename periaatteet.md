@@ -6,7 +6,7 @@ eyebrow: Menetelmä
 lead: "Lukijan pitää voida tarkistaa, mihin tieto perustuu, ja erottaa siitä se, mitä itse päättelen."
 ---
 
-Ilmiöt on riippumaton verkkojulkaisu, jossa julkaisen analyysejä ja pitkäkestoisia seurantoja. Kun päätökset, selvitykset ja tapahtumat ovat hajallaan eri lähteissä, kokoan ne yhteen. Lukijan pitää päästä halutessaan katsomaan samoja asiakirjoja kuin minäkin.
+Ilmiöt on riippumaton julkaisu, jossa julkaisen analyysejä ja pitkäkestoisia seurantoja. Kun päätökset, selvitykset ja tapahtumat ovat hajallaan eri lähteissä, kokoan ne yhteen. Lukijan pitää päästä halutessaan katsomaan samoja asiakirjoja kuin minäkin.
 
 ## 1. Alkuperäiset lähteet ensin
 
