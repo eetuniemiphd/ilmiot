@@ -84,9 +84,11 @@ Tilintarkastajan kuvauksen mukaan kaupunginhallitukselle kuului kaupungin tietos
 
 Kaupungin digitalisaatiojohtaja Hannu Heikkinen sanoi Ylelle 13.5.2024, että murrossa käytetty laite kuului toimialan tietohallinnon vastuulle. Riippumattoman tutkintaryhmän mukaan juuri sen laitteen käytännön ylläpitovastuut olivat murtohetkellä epäselviä. DigiHelsinki kertoi tutkintaryhmälle, ettei laite ollut sen hallinnassa ja että hälytysten valvonta jäi sen palomuuripalvelun ulkopuolelle. Vastuu tietohallinnosta on organisaatiotason vastaus. Jonkun pitäisi silti tietää, kenen työlistalla laitteen päivitys on ja kenen pitää toimia, kun hälytys tulee. [Ylen haastattelu 13.5.2024][ylevastuu] · [Tutkintaselostus, luvut 2.4, 2.7 ja 3.3 sekä lausuntoyhteenveto][otkes]
 
-Huhtikuun 25. päivänä palomuurilokeihin syntyi hälytyksiä. Reaaliaikainen valvonta jäi palvelun ulkopuolelle. Erillisestä haittaohjelmahälytyksestä avattu ilmoitus puolestaan jäi palveluntarjoajien väliseen järjestelmään, ja tieto välittyi toimialalle vasta 29.4. Tiedonkulun katkos on dokumentoitu. Aineistosta ei käy ilmi, että joku nimeltä yksilöitävä johtaja olisi saanut hälytyksen 25.4. tai jättänyt sen tietoisesti käsittelemättä. [Tutkintaselostus, luvut 1.1, 2.4 ja 3.5][otkes]
+Huhtikuun 25. päivänä palomuurilokeihin syntyi hälytyksiä. Reaaliaikainen valvonta jäi palvelun ulkopuolelle. Erillisestä haittaohjelmahälytyksestä avattu ilmoitus puolestaan jäi palveluntarjoajien väliseen järjestelmään, ja tieto välittyi toimialalle vasta 29.4. Tiedonkulun katkos on dokumentoitu. Aineistosta ei käy ilmi, että joku nimeltä yksilöitävä johtaja olisi saanut hälytyksen 25.4. tai jättänyt sen tietoisesti käsittelemättä. Tiedonkulun katkos on siis dokumentoitu, mutta julkisista lähteistä ei selviä, kenelle hälytys olisi pitänyt välittää ja kenen tehtävä oli reagoida siihen. [Tutkintaselostus, luvut 1.1, 2.4 ja 3.5][otkes]
 
-Kahdesta vuoden 2024 hankintapäätöksestä käy ilmi, että toimialan tietohallintojohtajan tehtävää hoidettiin sijaisena 11.3. ja 27.6. Niistä ei selviä sijaisuuden kesto eikä se, kenelle laitteen käytännön ylläpito kuului murtohetkellä. [Kaupungin päätös 11.3.2024][sijainenmaaliskuu] · [Kaupungin päätös 27.6.2024][sijainenkesakuu]
+Kuka hoiti kasvatuksen ja koulutuksen toimialan tietohallintojohtajan virkaa tietomurron aikaan? Luulisi, että tähän saisi julkisista asiakirjoista suoran vastauksen, mutta se on yllättävän haastavaa. Tivin mukaan vakinainen tietohallintojohtaja oli 31.12.2024 asti Soili Haapala. Kaupungin hankintapäätöksistä taas käy ilmi, että Sami Tikkanen hoiti virkaa sijaisena ainakin 11.3. ja 27.6.2024. Huhtikuun tietomurto osuu näiden päivien väliin. Päätöksistä ei selviä, hoitiko Tikkanen virkaa myös silloin tai kenelle laitteen käytännön ylläpito tuolloin kuului. [Tivi 10.10.2024][tivihaapala] · [Kaupungin päätös 11.3.2024][sijainenmaaliskuu] · [Kaupungin päätös 27.6.2024][sijainenkesakuu]
+
+Marraskuun 2024 valintapäätöksessä vakinaisen virkasuhteen alkamispäiväksi on merkitty 1.1.2025, mutta valitun nimi on julkisessa versiossa peitetty. Tarkastuslautakunnan pöytäkirja nimeää Tikkasen tietohallintojohtajaksi, kun lautakunta kuuli häntä tietomurrosta 4.2.2025. Kaupungin julkinen yhteystietohakemisto listaa hänet toimialan nykyiseksi tietohallintojohtajaksi. [Valintapäätös 28.11.2024][kaskovalinta] · [Tarkastuslautakunnan pöytäkirja 4.2.2025][tikkakuuleminen] · [Kaupungin yhteystietohakemisto][kaskoit26]
 
 ## Ensin puhuttiin hyökkääjästä, sitten siitä, keitä murto koski
 
@@ -128,11 +130,15 @@ Valtuuston 17.6.2026 myöntämä vastuuvapaus koski tilikautta 2025, eikä sill�
 
 **Tarkastelluista julkisista lähteistä ei löydy näyttöä, että tietomurto olisi johtanut yksittäisen viranhaltijan varoitukseen, virkasuhteen päättämiseen tai muuhun työnantajan määräämään henkilökohtaiseen seuraamukseen.** Niistä ei myöskään löydy ratkaisua, jossa yksittäinen viranhaltija olisi todettu korvausvelvolliseksi tietomurron vuoksi. Tämä ei osoita, ettei muita toimia olisi ollut. Tehtävässä jatkaminen tai tehtävän vaihtuminen ei yksin todista kumpaakaan. [Valtuuston päätös ja perustelut][vast24] · [Tarkastuslautakunnan arviointi][tarkastus] · [Kaupunginhallituksen hankekatsaus][hanke]
 
-### Korvaukset tietomurron kohteeksi joutuneille
+### Saiko kukaan korvausta tietomurron vuoksi?”
 
-Hallintopäällikkö hylkäsi 4.11.2024 kaksi vaatimusta, joissa kaupungilta haettiin korvausta maksullisen luottokiellon kuluista. Kaupungin perustelu oli, että luottokiellon sai myös maksutta. Kaupunki piti maksullisen palvelun kulua siksi tarpeettomana. Toisen asian oikaisuvaatimus hylättiin 4.2.2025. Näistä kahdesta julkisesta esimerkistä selviää kahden asian lopputulos. Muiden vaatimusten ratkaisuja tai kaikkien vaatimusten tilastoa niistä ei saa. [Julkinen korvauspäätös][korv1] · [Toisen asian julkinen päätöshistoria][korv2]
+Julkisista asiakirjoista saa vain osittaisen kuvan siitä, miten Helsinki ratkaisi tietomurtoon liittyviä korvausvaatimuksia. Kahdesta julkisesta päätöksestä selviävät sekä lopputulos että perustelut. Hallintopäällikkö hylkäsi 4.11.2024 kaksi vaatimusta, joissa kaupungilta haettiin korvausta maksullisen luottokiellon kuluista. Kaupunki piti kulua tarpeettomana, koska luottokiellon sai myös maksutta. Toisesta päätöksestä tehty oikaisuvaatimus hylättiin 4.2.2025. [Julkinen korvauspäätös][korv1] · [Toisen asian julkinen päätöshistoria][korv2]
 
-Tietosuojavaltuutettu puhui Ylelle toukokuussa 2024 hallinnollisesta seuraamusmaksusta. Korvauksen hakeminen omasta vahingosta on eri asia. EU-tuomioistuimen mukaan perusteltu pelko omien henkilötietojen tulevasta väärinkäytöstä voi olla aineetonta vahinkoa. Tulkinta annettiin toisessa asiassa. Helsingissä korvausoikeus on arvioitava erikseen. Siinä on hakijalle aika käytännöllinen pulma: hänen pitäisi ehkä kuvata vahinkonsa tai perustella pelkonsa, kun viranomaisillakaan ei ole varmaa luetteloa siitä, mitä hyökkääjä sai. [Yle 15.5.2024][talus] · [EU-tuomioistuin C-340/21, kohdat 82–86][eu] · [Tutkintaselostus, luku 2.2][otkes]
+Olen itsekin hakenut kaupungilta vahingonkorvausta tietomurron vuoksi. Hallintopäällikkö teki asiassani päätöksen 8.7.2026, ja kasvatus- ja koulutuslautakunta ratkaisi oikaisuvaatimukseni 20.10.2026. Käsittelyvaiheet näkyvät kaupungin julkisessa päätöshistoriassa, mutta päätösten sisältö ja perustelut eivät ole julkisia. [Korvausasiani julkinen päätöshistoria][omakorvaus]
+
+Tietopyyntökään ei tuonut ratkaisuista kattavaa kuvaa. Kasvatuksen ja koulutuksen yhteisten palvelujen johtaja Kati Takasen 12.8.2026 tekemässä asiakirjapäätöksessä mainitaan neljä korvausvaatimuksiin annettua päätöstä. Kaksi niistä oli julkisia. Takanen ei luovuttanut toisen hakijan salassa pidettävää päätöstä, ja kaupungin mukaan sillä ei ollut asiakirjaa, josta neljän päätöksen ratkaisulinja olisi käynyt ilmi. Takanen päätti 26.8.2026 myös olla luovuttamatta tarkennetussa pyynnössä pyydettyä valmistelu- ja muuta ratkaisuaineistoa. Kaupungin mukaan valmisteluaineisto oli sisäistä työskentelyä varten laadittua, eikä osaa muista pyydetyistä asiakirjoista ollut. Nämä päätökset koskivat asiakirjojen luovuttamista, eivät korvausten myöntämistä. [Asiakirjapäätös 12.8.2026][takanentietopyyntoelo12] · [Asiakirjapäätös 26.8.2026][takanentietopyynto]
+
+Tietosuojavaltuutettu puhui Ylelle toukokuussa 2024 hallinnollisesta seuraamusmaksusta. Korvauksen hakeminen omasta vahingosta on eri asia. EU-tuomioistuimen mukaan perusteltu pelko omien henkilötietojen tulevasta väärinkäytöstä voi olla aineetonta vahinkoa. Tuomio annettiin toisessa asiassa, joten se ei ratkaise oikeutta korvaukseen Helsingin tapauksessa. Hakijan käytännön ongelma on, että hänen on perusteltava oma vahinkonsa tai pelkonsa, vaikka tutkinnassakaan ei saatu selville tarkasti, mitä tiedostoja hyökkääjä kopioi. [Yle 15.5.2024][talus] · [EU-tuomioistuin C-340/21, kohdat 82–86][eu] · [Tutkintaselostus, luku 2.2][otkes]
 
 ## Organisaatio muuttui. Kulkeeko hälytys nyt perille?
 
@@ -153,7 +159,7 @@ Seuraavat kysymykset jäivät kokonaan tai osittain auki 1.11.2026 mennessä tar
 - **Onko korjattu valvonta testattu käytännössä?** Milloin uusi valvomo otettiin käyttöön, mitä järjestelmiä se kattaa ja onko testattu, että hälytys saavuttaa ajoissa nimetyn tahon, joka voi toimia? [Kaupungin hankekatsaus][hanke] · [DigiHelsinki 20.2.2026][valvomo]
 - **Miten kaupunki valvoo, ettei henkilötietoja kerry uudelleen työskentelylevyille?** Kuka tarkistaa, että säilytysajan ylittäneet kopiot todella poistetaan, ja mitä tarkastuksissa on havaittu? [Tutkintaselostus, luku 3.2][otkes] · [Kaupunginhallituksen lausunto tarkastuslautakunnalle][hallitusarvio]
 - **Mihin viranomaisten selvitykset johtivat?** Miten itse tietomurron esitutkinta ja erillinen, kaupungin toimintaan liittyvä tietosuojarikoksen esitutkinta etenivät? Mihin tulokseen tietosuojavaltuutetun toimisto päätyi kaupungin suojatoimista ja tiedottamisesta? [Poliisi 13.5.2024][poliisi13] · [KRP 13.3.2025][krp] · [Tietosuojavaltuutetun toimisto 14.5.2024][tsv]
-- **Mitä muille korvausvaatimuksille tapahtui?** Julkiset päätökset kahdesta maksullista luottokieltoa koskeneesta vaatimuksesta eivät kerro, montako vaatimusta kaupunki sai, millaisia vahinkoja niissä kuvattiin tai miten muut vaatimukset ratkaistiin. [Julkinen korvauspäätös][korv1] · [Toisen asian julkinen päätöshistoria][korv2]
+- **Myönsikö kaupunki korvausta kenellekään ja millä perusteilla?** Kaupungin 12.8.2026 tekemässä asiakirjapäätöksessä mainitaan neljä korvausvaatimuksiin annettua päätöstä. Kahdesta julkisesta päätöksestä tiedetään, että maksullisen luottokiellon kuluja ei korvattu. Muiden asioiden lopputulokset ja perustelut eivät käy ilmi julkisista päätösmerkinnöistä. Kaupungin mukaan sillä ei ollut asiakirjaa, josta neljän päätöksen yhteinen ratkaisulinja olisi selvinnyt. [Julkinen korvauspäätös][korv1] · [Toisen asian julkinen päätöshistoria][korv2] · [Asiakirjapäätös 12.8.2026][takanentietopyyntoelo12]
 
 ## Kirjoittajan sidonnaisuus
 
@@ -185,7 +191,11 @@ Henkilötietojani on kaupungin mukaan saattanut päätyä tietomurron tekijälle
 [hanke]: https://paatokset.hel.fi/fi/asia/hel-2025-012224/2abfa0ac-104d-4bb8-b6dd-990a367a27d0
 [tarkastus]: https://arviointikertomus.fi/kaupunginkanslia/kasvatuksen-ja-koulutuksen-toimialan-tietomurto/
 [koordinaatio]: https://www.hel.fi/fi/uutiset/helsingin-kaupunginhallitus-sai-tilannekatsauksen-kasvatuksen-ja-koulutuksen-toimialaan
-[sijainenmaaliskuu]: https://paatokset.hel.fi/en/case/hel-2024-003437?decision=e15b87af-5463-c00e-ad4e-8e5fac000001
+[sijainenmaaliskuu]: https://paatokset.hel.fi/fi/asia/hel-2024-003437/e15b87af-5463-c00e-ad4e-8e5fac000001
+[kaskoit26]: https://numerot.hel.fi/fi/kasvatuksen-ja-koulutuksen-toimiala/toimialan-yhteiset-palvelut/tietohallintopalvelut
+[tikkakuuleminen]: https://paatokset.hel.fi/fi/asia/hel-2024-006187/96bd80e2-7b9c-403f-a142-80b0ab626519
+[kaskovalinta]: https://paatokset.hel.fi/fi/asia/hel-2024-015849/d8fc69f9-1393-ca15-b4bf-93e798200001
+[takanentietopyynto]: https://paatokset.hel.fi/fi/asia/hel-2026-011938?paatos=7120586e-2930-c4f2-870a-a041f6300000
 [sijainenkesakuu]: https://paatokset.hel.fi/fi/asia/hel-2024-005014/98a3034d-aad9-4367-aa2d-ed72c9d88aaf
 [hannu]: https://www.hel.fi/fi/uutiset/helsingin-uudeksi-digitalisaatiojohtajaksi-on-valittu-hannu-heikkinen
 [asetus]: https://valtioneuvosto.fi/-/1410853/tutkintaryhma-selvittamaan-helsingin-kaupunkiin-kohdistunutta-tietomurtoa
@@ -211,3 +221,6 @@ Henkilötietojani on kaupungin mukaan saattanut päätyä tietomurron tekijälle
 [ohjausryhma]: https://paatokset.hel.fi/fi/asia/hel-2025-005935?paatos=ef057777-ff72-4283-b17d-e8075a31e0de
 [hannuvalinta]: https://paatokset.hel.fi/fi/asia/hel-2025-020663?paatos=128fd3af-5e2b-ca7f-8191-9d9475300001
 [ketonen]: https://paatokset.hel.fi/en/case/hel-2025-012568?decision=8ae212ad-7274-cdca-87ef-9955d5600000
+[tivihaapala]: https://www.tivi.fi/uutiset/a/016cb042-80b3-4fd0-9c8e-a9b3b942e07d
+[omakorvaus]: https://paatokset.hel.fi/fi/asia/hel-2025-009904
+[takanentietopyyntoelo12]: https://paatokset.hel.fi/fi/asia/hel-2026-011938?paatos=fede453c-aec7-cab0-9be6-a01359f00001
