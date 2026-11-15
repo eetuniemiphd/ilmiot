@@ -1,83 +1,24 @@
-# Eetu Niemi — Ilmiöt
+# Ilmiöt
 
-Julkisiin lähteisiin perustuvia artikkeleita ja pysyviä seurantoja monimutkaisista ilmiöistä.
+Ilmiöt on Eetu Niemen riippumaton verkkojulkaisu teknologiasta, taloudesta, työelämästä ja yhteiskunnasta. Selvitän julkisista asiakirjoista, uutisista ja muista lähteistä, mitä tapahtui, miksi ja mitä siitä seurasi. Otan myös kantaa ja kerron, mihin arvioni perustuu.
 
-**Sivusto:** https://ilmiot.eetuniemi.fi
+**Lue julkaisu: [ilmiot.eetuniemi.fi](https://ilmiot.eetuniemi.fi)**
 
-**Monimutkaiset asiat ymmärrettäviksi.**
+## Mitä Ilmiöissä julkaistaan?
 
-Ilmiöt on Eetu Niemen riippumaton analyysi- ja seurantajulkaisu.
+[Artikkeleissa](https://ilmiot.eetuniemi.fi/artikkelit/) selvitän esimerkiksi, miten jokin järjestelmä toimii, millä perusteilla päätös tehtiin tai mitä tapahtuneesta voi oppia. [Seurantoihin](https://ilmiot.eetuniemi.fi/seuranta/) kokoan pitkään jatkuvien tapausten keskeiset tapahtumat ja lähteet. Päivitän niitä, kun saan olennaista uutta tietoa ja pystyn tarkistamaan sen. Kaavioita käytän silloin, kun tapahtumaketju tai asioiden väliset yhteydet näkyvät kuvassa paremmin kuin tekstissä.
 
-Julkaisu kokoaa hajallaan olevaa julkista tietoa ymmärrettäviksi kokonaisuuksiksi sekä tarkastelee teknologian, päätöksenteon, talouden ja yhteiskunnallisten järjestelmien toimintaa ja vaikutuksia.
+- [Toimitukselliset periaatteet](https://ilmiot.eetuniemi.fi/periaatteet/) – miten tarkistan tiedot, käytän lähteitä ja korjaan virheet
+- [Tietosuoja](https://ilmiot.eetuniemi.fi/tietosuoja/) – miten käsittelen henkilötietoja ja mitä sivustolla käynnistä tallentuu
+- [Tietoa Ilmiöistä ja yhteystiedot](https://ilmiot.eetuniemi.fi/tietoa/)
+- [RSS-syöte](https://ilmiot.eetuniemi.fi/feed.xml)
 
-**Verkkosivusto:** [ilmiot.eetuniemi.fi](https://ilmiot.eetuniemi.fi)
+## Tämä repositorio
 
-## Sisältö
+Tässä repositoriossa ovat Ilmiöiden sisältötiedostot ja sivuston toteutus. Sivusto rakennetaan Jekyllillä ja julkaistaan GitHub Pagesissa.
 
-Julkaisussa on kolme keskeistä sisältömuotoa:
+## Tekijänoikeudet
 
-- **Artikkelit:** analyysejä, taustoituksia ja kokemuksiin perustuvia kirjoituksia.
-- **Seurannat:** pitkäkestoisten tapausten dokumentointia, aikajanoja, päätöksiä ja lähdekoosteita.
-- **Selittävät kaaviot:** visuaalisia esityksiä järjestelmistä, riippuvuuksista, päätöksenteosta ja tapahtumaketjuista.
+© 2026 Eetu Niemi. Pidän oikeudet Ilmiöiden alkuperäisiin teksteihin, kuviin ja kaavioihin, ellei aineiston yhteydessä ilmoiteta muuta. Lähdeasiakirjojen, lainausten ja muun ulkopuolisen aineiston oikeudet kuuluvat niiden oikeudenhaltijoille.
 
-Tavoitteena ei ole mahdollisimman nopea uutisointi, vaan huolellisesti lähteistetty kokonaiskuva.
-
-## Toimitukselliset periaatteet
-
-Julkaisun keskeiset periaatteet:
-
-1. Ensisijaisesti alkuperäiset ja julkisesti tarkistettavat lähteet.
-2. Dokumentoitujen tosiasioiden, eri toimijoiden väitteiden, analyysin ja avoimien kysymysten erottaminen.
-3. Järjestelmien ja päätöksenteon tarkastelu henkilökohtaisen syyllistämisen sijaan.
-4. Tietojen tarkistaminen ennen julkaisua.
-5. Virheiden avoin korjaaminen ja olennaisten muutosten dokumentointi.
-6. Henkilötietojen tarpeellisuuden ja yksityisyydensuojan huomioiminen.
-7. Mahdollisten henkilökohtaisten ja ammatillisten sidonnaisuuksien ilmoittaminen.
-
-Tekoälyä voidaan käyttää aineiston jäsentämiseen ja tekstin työstämiseen, mutta se ei ole julkaistavien tietojen lähde.
-
-Tarkemmat periaatteet julkaistaan sivustolla: [Toimitukselliset periaatteet](https://ilmiot.eetuniemi.fi/periaatteet/).
-
-## Tekninen toteutus
-
-Sivusto toteutetaan seuraavilla teknologioilla:
-
-- GitHub Pages – julkaisu ja hosting
-- Jekyll – staattisen sivuston muodostaminen
-- Markdown – artikkelit ja sisältösivut
-- YAML – seurantojen tapahtumat ja lähderekisterit
-- HTML ja CSS – ulkoasu sekä kaavioiden esittäminen
-
-- Etusivu näyttää automaattisesti uusimman artikkelin ja seuraavat kuusi.
-- `/artikkelit/` listaa julkaistut artikkelit uusimmasta alkaen.
-- Artikkelit kirjoitetaan `_posts/YYYY-MM-DD-slug.md` -tiedostoiksi.
-- Seurannat, lähdeluettelot ja YAML-pohjainen aikajana säilyvät entisellään.
-- RSS-syöte: `/feed.xml` ja sivukartta: `/sitemap.xml` rakennetaan automaattisesti.
-- Ei CMS:ää, tietokantaa tai JavaScript-riippuvuutta.
-
-Paikallisesti:
-
-```sh
-bundle install
-bundle exec jekyll serve
-```
-
-Sivusto ei käytä julkaisijan lisäämää kävijäanalytiikkaa, mainosseurantaa tai seurantapikseleitä.
-
-## Tekijänoikeudet ja käyttöehdot
-
-© 2026 Eetu Niemi.
-
-Julkaisun alkuperäisten artikkelien, tekstien, kuvien ja kaavioiden oikeudet pidätetään, ellei yksittäisen aineiston yhteydessä ilmoiteta muuta.
-
-Lähdeasiakirjojen, lainatun aineiston ja kolmansien osapuolten materiaalien oikeudet kuuluvat niiden oikeudenhaltijoille.
-
-Julkinen GitHub-repositorio ei tarkoita, että sen journalistinen sisältö olisi vapaasti uudelleenjulkaistavissa. Tekijänoikeuslain sallimat käytöt, kuten asianmukainen siteeraaminen, ovat erikseen mahdollisia.
-
-## Julkaisija
-
-**Eetu Niemi**
-
-[Henkilökohtainen verkkosivusto](https://eetuniemi.fi)
-
-Ilmiöt julkaistaan henkilökohtaisena ja riippumattomana sisältöalueena.
+Repositorion julkisuus ei itsessään anna lupaa julkaista sisältöä uudelleen. Asianmukainen siteeraaminen on mahdollista tekijänoikeuslain sallimissa rajoissa.

@@ -16,6 +16,10 @@ Teen Ilmiöitä omalla ajallani ja omalla nimelläni. Kirjoitukset edustavat omi
 
 Lue myös [toimitukselliset periaatteet]({{ '/periaatteet/' | relative_url }}).
 
+## Tekijänoikeudet
+
+Ilmiöiden omien tekstien, kuvien ja kaavioiden oikeudet kuuluvat minulle, ellei aineiston yhteydessä toisin mainita. Sivustolla käytetyn ulkopuolisen aineiston oikeudet kuuluvat sen oikeudenhaltijoille. Jos haluat julkaista esimerkiksi Ilmiöiden kaavion omassa julkaisussasi, voit kysyä minulta lupaa alla olevien yhteystietojen kautta.
+
 ## Yhteydenotot
 
 - Lisää minusta ja muista julkaisuistani: [eetuniemi.fi]({{ site.author_site }})
