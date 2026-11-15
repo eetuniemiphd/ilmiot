@@ -1,19 +1,33 @@
 ---
 layout: default
 ---
-{% assign dossier = site.data.cases[page.case_key] %}
-{% assign latest_change = dossier.changes | sort: 'date' | last %}
-{% assign case_root = '/seuranta/helsingin-tietomurto-2024/' %}
-{% assign timeline_url = case_root | append: 'aikajana/' %}
-{% assign proceedings_url = case_root | append: 'menettelyt/' %}
-{% assign sources_url = case_root | append: 'lahteet/' %}
+{%- assign dossier = nil -%}
+{%- assign case_home = nil -%}
+{%- assign latest_change = nil -%}
+{%- if page.case_key -%}
+  {%- assign dossier = site.data.cases[page.case_key] -%}
+  {%- assign case_home = site.pages | where: 'seuranta_kortti', true | where: 'case_key', page.case_key | first -%}
+  {%- if dossier.changes -%}
+    {%- assign latest_change = dossier.changes | sort: 'date' | last -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if case_home -%}
+  {%- assign case_root = case_home.url -%}
+  {%- assign case_pages = site.pages | where: 'case_key', page.case_key -%}
+  {%- assign timeline_url = case_root | append: 'aikajana/' -%}
+  {%- assign proceedings_url = case_root | append: 'menettelyt/' -%}
+  {%- assign sources_url = case_root | append: 'lahteet/' -%}
+  {%- assign timeline_page = case_pages | where: 'url', timeline_url | first -%}
+  {%- assign proceedings_page = case_pages | where: 'url', proceedings_url | first -%}
+  {%- assign sources_page = case_pages | where: 'url', sources_url | first -%}
+{%- endif %}
 
 <nav class="breadcrumbs" aria-label="Murupolku">
   <a href="{{ '/seuranta/' | relative_url }}">Seurannat</a>
-  {% unless page.url == case_root %}
+  {% if case_home and page.url != case_root %}
   <span aria-hidden="true">/</span>
-  <a href="{{ case_root | relative_url }}">Helsingin tietomurto 2024</a>
-  {% endunless %}
+  <a href="{{ case_root | relative_url }}">{{ case_home.title | escape }}</a>
+  {% endif %}
   <span aria-hidden="true">/</span>
   <span aria-current="page">{{ page.title | escape }}</span>
 </nav>
@@ -30,11 +44,15 @@ layout: default
   </div>
 </header>
 
-<nav class="case-nav" aria-label="Helsingin tietomurron seurantasivut">
+{% if case_home %}
+{% if timeline_page or proceedings_page or sources_page %}
+<nav class="case-nav" aria-label="{{ case_home.title | escape }} – seurantasivut">
   <a href="{{ case_root | relative_url }}"{% if page.url == case_root %} aria-current="page"{% endif %}>Yhteenveto</a>
-  <a href="{{ timeline_url | relative_url }}"{% if page.url == timeline_url %} aria-current="page"{% endif %}>Aikajana</a>
-  <a href="{{ proceedings_url | relative_url }}"{% if page.url == proceedings_url %} aria-current="page"{% endif %}>Menettelyt ja päätökset</a>
-  <a href="{{ sources_url | relative_url }}"{% if page.url == sources_url %} aria-current="page"{% endif %}>Lähteet</a>
+  {% if timeline_page %}<a href="{{ timeline_page.url | relative_url }}"{% if page.url == timeline_page.url %} aria-current="page"{% endif %}>Aikajana</a>{% endif %}
+  {% if proceedings_page %}<a href="{{ proceedings_page.url | relative_url }}"{% if page.url == proceedings_page.url %} aria-current="page"{% endif %}>Menettelyt ja päätökset</a>{% endif %}
+  {% if sources_page %}<a href="{{ sources_page.url | relative_url }}"{% if page.url == sources_page.url %} aria-current="page"{% endif %}>Lähteet</a>{% endif %}
 </nav>
+{% endif %}
+{% endif %}
 
 <div class="prose prose-wide">{{ content }}</div>

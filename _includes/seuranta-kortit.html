@@ -1,0 +1,45 @@
+{%- assign seurannat = site.pages | where: 'seuranta_kortti', true | sort_natural: 'title' -%}
+{% if seurannat.size > 0 %}
+<div class="listing">
+  {% for seuranta in seurannat %}
+    {%- assign kortin_data = nil -%}
+    {%- assign kortin_paivitys = nil -%}
+    {%- if seuranta.case_key -%}
+      {%- assign kortin_data = site.data.cases[seuranta.case_key] -%}
+      {%- if kortin_data.changes -%}
+        {%- assign kortin_paivitys = kortin_data.changes | sort: 'date' | last -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign kortin_tila = kortin_data.status | default: 'Seuranta' -%}
+    {%- assign kortin_kuvaus = seuranta.lead | default: seuranta.description -%}
+    {% if include.tyyli == 'etusivu' %}
+    <a class="feature-card" href="{{ seuranta.url | relative_url }}">
+      <div>
+        <span class="pill">{{ kortin_tila | escape }}</span>
+        <h3>{{ seuranta.title | escape }}</h3>
+        {% if kortin_kuvaus %}<p>{{ kortin_kuvaus | escape }}</p>{% endif %}
+      </div>
+      <span class="feature-arrow" aria-hidden="true">↗</span>
+    </a>
+    {% else %}
+    <a class="list-card" href="{{ seuranta.url | relative_url }}">
+      <span class="pill">{{ kortin_tila | escape }}</span>
+      <h2>{{ seuranta.title | escape }}</h2>
+      {% if kortin_kuvaus %}<p>{{ kortin_kuvaus | escape }}</p>{% endif %}
+      <span class="card-foot">
+        {% if kortin_paivitys.date %}
+          Päivitetty <time datetime="{{ kortin_paivitys.date | date: '%Y-%m-%d' }}">{{ kortin_paivitys.date | date: '%-d.%-m.%Y' }}</time>
+        {% elsif kortin_data.started %}
+          Seuranta avattu <time datetime="{{ kortin_data.started | date: '%Y-%m-%d' }}">{{ kortin_data.started | date: '%-d.%-m.%Y' }}</time>
+        {% else %}
+          Avaa seuranta
+        {% endif %}
+        <span aria-hidden="true">↗</span>
+      </span>
+    </a>
+    {% endif %}
+  {% endfor %}
+</div>
+{% else %}
+<p class="section-intro">Seurantoja ei ole vielä listattu.</p>
+{% endif %}

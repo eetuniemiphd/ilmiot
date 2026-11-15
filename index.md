@@ -58,9 +58,6 @@ layout: default
 {% endif %}
 <section class="home-section follow-section" aria-labelledby="seurannat-heading">
   <div class="section-heading"><div><p class="eyebrow">PÄIVITTYVÄT AIHEKOKONAISUUDET</p><h2 id="seurannat-heading">Seurannat</h2></div><a href="{{ '/seuranta/' | relative_url }}">Kaikki seurannat <span aria-hidden="true">↗</span></a></div>
-  <a class="feature-card" href="{{ '/seuranta/helsingin-tietomurto-2024/' | relative_url }}">
-    <div><span class="pill">Valmistelussa</span><h3>Helsingin tietomurto 2024</h3><p>Kokoan Helsingin kaupungin tietomurrosta aikajanan sekä siihen liittyvät selvitykset ja päätökset. Mitä tapahtui, mitä saatiin selville ja mikä on vielä auki?</p></div>
-    <span class="feature-arrow" aria-hidden="true">↗</span>
-  </a>
+  {% include seuranta-kortit.html tyyli="etusivu" %}
 </section>
 <section class="method-banner"><div><p class="eyebrow">JULKAISUPERIAATE</p><h2>Mihin tieto perustuu?</h2></div><p>Kerron, mitä lähteet osoittavat, mitä muut asiasta sanovat ja mitä itse päättelen. Jos jokin jää epäselväksi, kerron senkin. <a href="{{ '/periaatteet/' | relative_url }}">Lue toimitukselliset periaatteet ↗</a></p></section>
