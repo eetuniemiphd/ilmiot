@@ -6,19 +6,21 @@ eyebrow: Ilmiöt
 lead: "Milloin mainitsen ihmisen nimeltä ja mitä tietoja sivustolla käynnistä tallentuu?"
 ---
 
-Teen Ilmiöitä omalla nimelläni. Vastaan siitä, mitä henkilötietoja julkaisen ja miten käsittelen minulle lähetettyjä viestejä. Sivuston teknisestä ylläpidosta vastaa GitHub Pages, jolla on omat tietosuojakäytäntönsä.
+Teen Ilmiöitä omalla nimelläni. Vastaan siitä, mitä henkilötietoja julkaisen ja miten käsittelen minulle lähetettyjä viestejä. Sivusto toimii GitHub Pagesissa, jolla on omat tietosuojakäytäntönsä.
 
 ## 1. Henkilötiedot artikkeleissa ja seurannoissa
 
-Käytän julkisia asiakirjoja, viranomaistiedotteita ja uutisia, kun selvitän yleistä etua koskevia asioita. Jos viranhaltijan päätös, lausunto tai tehtävä on olennainen asian ymmärtämiseksi, voin mainita hänet nimeltä. Jos tehtävänimike tai organisaation nimi riittää, käytän sitä. Nimi voi olla asiakirjassa aivan perustellusti ja silti olla jutussa tarpeeton.
+Käytän julkisia asiakirjoja, viranomaistiedotteita ja uutisia, kun selvitän yleistä etua koskevia asioita. Mainitsen henkilön nimeltä vain, jos nimi ja henkilön yhteys käsiteltävään asiaan käyvät ilmi julkisesta alkuperäislähteestä ja nimen mainitseminen auttaa ymmärtämään asiaa. Näin voi olla esimerkiksi silloin, kun jutussa käsitellään viranhaltijan tekemää päätöstä, julkista lausuntoa tai tehtävää. Jos tehtävänimike tai organisaation nimi riittää, käytän sitä. Nimi voi olla asiakirjassa aivan perustellusti ja silti olla jutussa tarpeeton.
 
-Tietovuodoista kirjoittaessani en julkaise vuotanutta aineistoa. Jätän pois tarpeettomat tiedot, joista voi tunnistaa esimerkiksi tietovuodon kohteeksi joutuneen, alaikäisen tai yksityisen korvauksenhakijan. Pelkkä nimen poistaminen ei aina riitä. Jos ihminen on tunnistettavissa yhdistämällä jutun tietoja keskenään tai muihin julkisiin tietoihin, otan sen huomioon ennen julkaisua.
+Tietovuodoista kirjoittaessani en julkaise vuotanutta aineistoa. Jos aineisto herättää kysymyksiä tai antaa aiheen epäillä, että julkisuudessa kerrottu kuva on puutteellinen, etsin tiedolle vahvistusta muista lähteistä. Kerron asian ymmärtämiseksi tarpeelliset tiedot siltä osin kuin voin tehdä sen paljastamatta salassa pidettävää tietoa tai vaarantamatta kenenkään yksityisyyttä, turvallisuutta tai luottamuksellista lähdettä.
+
+Jätän pois tarpeettomat tiedot, joista voi tunnistaa esimerkiksi tietovuodon kohteeksi joutuneen, alaikäisen tai yksityisen korvauksenhakijan. Pelkkä nimen poistaminen ei aina riitä. Arvioin ennen julkaisua, voiko henkilön tunnistaa yhdistämällä jutun tietoja keskenään tai muihin julkisiin tietoihin.
 
 **Journalistinen poikkeus.** Kun henkilötietoja käsitellään ainoastaan journalistisiin tarkoituksiin, [tietosuojalain 27 §](https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2018/1050) rajaa osan EU:n yleisen tietosuoja-asetuksen (GDPR) säännöistä pois tai sovellettaviksi vain soveltuvin osin. Ratkaisevaa on se, mihin tietoa käytetään, ei se, julkaiseeko jutun sanomalehti vai yksittäinen kirjoittaja. Poikkeus koskee journalistista työtä, ei automaattisesti kaikkea sivustoon liittyvää henkilötietojen käsittelyä.
 
-**Oma kotisivu ja kotitalouspoikkeus.** tietosuoja-asetuksen 2 artiklan 2 kohdan c alakohdan poikkeus koskee puhtaasti henkilökohtaista tai kotitaloutta koskevaa toimintaa. Se ei ole yleinen poikkeus omille kotisivuille. Ilmiöt on avoin julkaisu, enkä perusta henkilötietojen julkaisemista siihen, että teen sivustoa yksityishenkilönä.
+**Oma kotisivu ja kotitalouspoikkeus.** Tietosuoja-asetuksen 2 artiklan 2 kohdan c alakohdan poikkeus koskee puhtaasti henkilökohtaista tai kotitaloutta koskevaa toimintaa. Se ei ole yleinen poikkeus omille kotisivuille. Ilmiöt on avoin julkaisu, enkä perusta henkilötietojen julkaisemista siihen, että teen sivustoa yksityishenkilönä.
 
-EN käytä kumpaakaan poikkeusta tekosyyynä julkaista henkilötietoa vain siksi, että se on saatavilla. Kysyn mieluummin, mitä lukija ymmärtää paremmin, jos tieto on mukana, ja mitä haittaa julkaisemisesta voi koitua.
+Kumpikaan poikkeus ei ole minulle tekosyy julkaista henkilötietoa vain siksi, että se on saatavilla. Arvioin, mitä lukija ymmärtää paremmin, jos tieto on mukana, ja mitä haittaa julkaisemisesta voi koitua.
 
 Jos huomaat sinua koskevan virheen tai jutussa on mielestäsi tarpeeton henkilötieto, voit pyytää minua korjaamaan virheen tai arvioimaan tiedon tarpeellisuuden uudelleen. Kerro, mistä sivusta ja kohdasta on kyse. [Julkaisijan yhteystiedot](https://eetuniemi.fi/).
 

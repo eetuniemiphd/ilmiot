@@ -1,6 +1,6 @@
 ---
 title: Etusivu
-description: "Eetu Niemen artikkeleita ilmiöistä, järjestelmistä, päätöksenteosta ja tapahtumien taustoista. Pitkäkestoiset seurannat perustuvat julkisiin lähteisiin."
+description: "Ilmiöt – Eetu Niemen artikkeleita teknologiasta, taloudesta, työelämästä ja yhteiskunnasta. Päivittyviä seurantoja julkisten lähteiden pohjalta."
 permalink: /
 layout: default
 ---
