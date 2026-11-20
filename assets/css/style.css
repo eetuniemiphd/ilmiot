@@ -358,3 +358,13 @@ h3 { font-size: clamp(1.3rem, 2vw, 1.62rem); }
   font-size: 0.9375rem;
   line-height: 1.4;
 }
+
+.article-note > strong {
+  font-size: 1.125rem;
+}
+
+.article-note p,
+.article-note p a {
+  font-size: 1rem;
+  line-height: 1.6;
+}
