@@ -37,7 +37,7 @@ defaults:
         alt: "Eetu Niemi · Ilmiöt"
 
 author_site: "https://eetuniemi.fi"
-contact_email: ""
+contact_email: "ilmiot@eetuniemi.fi"
 
 exclude:
   - Gemfile
