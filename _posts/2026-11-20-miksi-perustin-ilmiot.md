@@ -1,6 +1,6 @@
 ---
 title: "Miksi perustin Ilmiöt-julkaisun?"
-description: "Miksi perustin Ilmiöt-julkaisun? Selvitän artikkeleissa ja päivittyvissä seurannoissa, mitä päätösten ja uutisten taustalta löytyy, kun julkiset lähteet lukee rinnakkain."
+description: "Perustin Ilmiöt, koska uutisen jälkeen jää usein vielä selvitettävää ja osa aiheista jää kokonaan uutisoimatta. Julkaisen analyysejä ja päivittyviä seurantoja julkisten lähteiden pohjalta."
 content_type: "Julkaisusta"
 tags:
   - menetelmä
