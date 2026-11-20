@@ -27,11 +27,13 @@ En julkaise salassa pidettäviä tai turvallisuusluokiteltuja asiakirjoja enkä 
 <div class="principle question"><strong>Avoin kysymys</strong><p>Asia, johon käytettävissä olevista lähteistä ei löydy riittävää vastausta.</p></div>
 </div>
 
-## 3. Miten vastuut oli järjestetty?
+## 3. Miten asiat toimivat käytännössä?
 
-Kun jokin menee pieleen, aloitan siitä, miten työnjako oli järjestetty, kuka teki päätökset ja miten tieto kulki. Selvitän myös, miten ongelmaa oli tarkoitus ehkäistä ja miksi se ei onnistunut. Samat kysymykset auttavat usein ymmärtämään, miksi jokin onnistui.
+Jutusta riippuen selvitän, miten jokin järjestelmä toimii, miksi jokin käytäntö on yleistynyt tai mitä muutoksesta seuraa eri ihmisille. Jos hankkeelle on asetettu tavoitteita, vertaan niitä siihen, mitä lopulta saatiin aikaan. Minua kiinnostaa yhtä lailla, miksi jokin onnistui ja voisiko sama toimia muuallakin.
 
-Mainitsen henkilön nimeltä vain, jos nimi ja hänen yhteytensä käsiteltävään asiaan käyvät ilmi julkisesta alkuperäislähteestä ja nimen mainitseminen auttaa ymmärtämään asiaa. Jos tehtävänimike tai organisaation nimi riittää, käytän sitä. Voimakkaalla arvostelulla pitää olla yleistä merkitystä, ja sen tueksi tarvitaan riittävä näyttö. Henkilötietojen käsittelystä kerron tarkemmin [Tietosuoja-sivulla]({{ '/tietosuoja/' | relative_url }}).
+Kun jokin menee pieleen, selvitän myös, miten työ ja vastuut oli jaettu, kuka teki päätökset ja miten tieto kulki. Jos ongelmaa oli varauduttu ehkäisemään, katson, miksi varautuminen ei sillä kertaa riittänyt.
+
+Mainitsen henkilön nimeltä vain, jos nimi ja hänen yhteytensä käsiteltävään asiaan käyvät ilmi julkisesta alkuperäislähteestä ja nimen mainitseminen auttaa ymmärtämään asiaa. Jos tehtävänimike tai organisaation nimi riittää, käytän sitä. Voimakkaalla arvostelulla pitää olla yleistä merkitystä, ja sen tueksi tarvitaan riittävä näyttö. Henkilötietojen käsittelystä kerron tarkemmin [tietosuojasivulla]({{ '/tietosuoja/' | relative_url }}).
 
 ## 4. Virheet ja päivitykset näkyviin
 

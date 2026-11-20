@@ -26,11 +26,9 @@ Jos huomaat sinua koskevan virheen tai jutussa on mielestäsi tarpeeton henkilö
 
 ## 2. Mitä sivustolla käynnistä tallentuu?
 
-**En seuraa tai profiloi Ilmiöiden kävijöitä.** Lukemiseen ei tarvita tiliä eikä kirjautumista. Ilmiöissä ei ole omaa kävijäanalytiikkaa, mainospikseleitä, kävijäseurannan evästeitä, kommentointia tai yhteydenottolomaketta.
+**En itse kerää käyntitietoja enkä seuraa tai profiloi Ilmiöiden kävijöitä.** Lukemiseen ei tarvita tiliä eikä kirjautumista. Sivustolla ei ole omaa kävijäanalytiikkaa, mainospikseleitä, seurantaevästeitä, kommentointia tai yhteydenottolomaketta.
 
-**GitHub Pages tallentaa kävijän IP-osoitteen.** GitHub kertoo tallentavansa IP-osoitteen tietoturvaa varten myös silloin, kun kävijä ei ole kirjautunut GitHubiin. Minusta sivuston suojaaminen esimerkiksi haitalliselta liikenteeltä on perusteltu syy pitää tietoturvalokia. Se on eri asia kuin sen seuraaminen, kuka lukee mitäkin juttua. En pääse käsiksi GitHubin lokeihin.
-
-GitHub mainitsee tietosuojalausunnossaan palvelujensa suojaamisen esimerkkinä oikeutetusta edusta. Tämä ei tarkoita, että tietoturvasyy oikeuttaisi tallentamaan mitä tahansa tai säilyttämään tietoja miten pitkään tahansa. GitHub kuvaa omat käsittelyperusteensa, tietojen säilyttämisen ja kansainväliset siirrot tietosuojalausunnossaan. Jos kysymyksesi koskee GitHubin tallentamia tietoja, löydät sieltä myös GitHubin yhteystiedot. [GitHub Pagesin kuvaus](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages) · [GitHubin tietosuojalausunto](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Sivusto toimii GitHub Pagesissa. GitHub kertoo tallentavansa kävijän IP-osoitteen tietoturvaa varten. En pääse käsiksi GitHubin lokeihin. Lisätietoja ja GitHubin yhteystiedot löydät [GitHubin tietosuojalausunnosta](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). IP-osoitteiden tallentamisesta kerrotaan myös [GitHub Pagesin kuvauksessa](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
 ## 3. Linkit ja yhteydenotot
 

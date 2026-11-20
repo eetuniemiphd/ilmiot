@@ -344,3 +344,17 @@ h3 { font-size: clamp(1.3rem, 2vw, 1.62rem); }
     font-size: 1.1rem;
   }
 }
+
+/* Ylävalikon linkit */
+.site-header nav a,
+.site-nav a {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Etusivun toimintolinkit */
+.latest-article .text-link,
+.home-section .section-heading > a {
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}

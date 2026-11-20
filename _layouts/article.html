@@ -1,21 +1,33 @@
 ---
 layout: default
 ---
-<nav class="breadcrumbs" aria-label="Murupolku"><a href="{{ '/artikkelit/' | relative_url }}">Artikkelit</a><span aria-hidden="true">/</span><span>{{ page.title | escape }}</span></nav>
+<nav class="breadcrumbs" aria-label="Murupolku">
+  <a href="{{ '/artikkelit/' | relative_url }}">Artikkelit</a>
+  <span aria-hidden="true">/</span>
+  <span>{{ page.title | escape }}</span>
+</nav>
+
 <article class="prose-narrow article">
   <header class="article-head">
-    <p class="eyebrow">{{ page.content_type | default: 'Analyysi' | escape }}</p>
+    <p class="eyebrow">{{ page.content_type | default: 'Artikkeli' | escape }}</p>
     <h1>{{ page.title | escape }}</h1>
-    {% if page.description %}<p class="lead">{{ page.description | escape }}</p>{% endif %}
+    {% if page.description %}
+    <p class="lead">{{ page.description | escape }}</p>
+    {% endif %}
     <div class="meta-row">
       <span>{{ page.author | default: site.author | escape }}</span>
-      {% if page.date %}<span>Julkaistu {{ page.date | date: '%-d.%-m.%Y' }}</span>{% endif %}
-      {% if page.updated %}<span>Päivitetty {{ page.updated | date: '%-d.%-m.%Y' }}</span>{% endif %}
+      {% if page.date %}
+      <span>Julkaistu {{ page.date | date: '%-d.%-m.%Y' }}</span>
+      {% endif %}
+      {% if page.updated %}
+      <span>Päivitetty {{ page.updated | date: '%-d.%-m.%Y' }}</span>
+      {% endif %}
     </div>
   </header>
-  {% if page.image %}
+
+  {% if page.cover_image %}
   <figure class="article-cover">
-    <img src="{{ page.image | relative_url }}"
+    <img src="{{ page.cover_image | relative_url }}"
          alt="{{ page.image_alt | default: '' | escape }}"
          width="1200" height="630" decoding="async">
     {% if page.image_caption or page.image_credit %}
@@ -26,7 +38,15 @@ layout: default
     {% endif %}
   </figure>
   {% endif %}
+
   <div class="prose">{{ content }}</div>
-  {% if page.related_case %}<p class="article-related">Tämä kirjoitus liittyy seurantaan <a href="{{ page.related_case | relative_url }}">{{ page.related_case_title | default: 'Avaa seuranta' | escape }}</a>.</p>{% endif %}
-  <aside class="article-note"><strong>Julkaisun periaatteet</strong><p>Lähteistetyt tiedot, lähteisiin liitetyt väitteet ja oma analyysi pyritään erottamaan toisistaan. <a href="{{ '/periaatteet/' | relative_url }}">Lue menetelmästä</a>.</p></aside>
+
+  {% if page.related_case %}
+  <p class="article-related">Tämä kirjoitus liittyy seurantaan <a href="{{ page.related_case | relative_url }}">{{ page.related_case_title | default: 'Avaa seuranta' | escape }}</a>.</p>
+  {% endif %}
+
+  <aside class="article-note">
+    <strong>Julkaisun periaatteet</strong>
+    <p>Lähteistetyt tiedot, lähteisiin liitetyt väitteet ja oma analyysi pyritään erottamaan toisistaan. <a href="{{ '/periaatteet/' | relative_url }}">Lue menetelmästä</a>.</p>
+  </aside>
 </article>

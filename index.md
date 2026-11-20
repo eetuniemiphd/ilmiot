@@ -4,10 +4,11 @@ description: "Ilmiöt – Eetu Niemen artikkeleita teknologiasta, taloudesta, ty
 permalink: /
 layout: default
 ---
+
 <section class="editorial-intro" aria-labelledby="intro-heading">
   <p class="eyebrow">EETU NIEMI · ILMIÖT</p>
   <h1 id="intro-heading">Analyysiä ja <em>seurantaa.</em></h1>
-  <p class="lead">>Kirjoitan siitä, miten järjestelmät toimivat, miksi tiettyihin päätöksiin päädytään ja mitä niistä seuraa. Pitkäkestoisissa seurannoissa kokoan julkisista lähteistä tapahtumien aikajanan ja palaan aiheeseen, kun uutta tietoa saadaa.</p>
+  <p class="lead">Kirjoitan siitä, miten järjestelmät toimivat, miksi tiettyihin päätöksiin päädytään ja mitä niistä seuraa. Pitkäkestoisissa seurannoissa kokoan julkisista lähteistä tapahtumien aikajanan ja palaan aiheeseen, kun uutta tietoa saadaan.</p>
 </section>
 
 {% assign articles = site.posts %}
@@ -15,10 +16,10 @@ layout: default
   {% assign newest = articles.first %}
   <section class="latest-article" aria-labelledby="latest-heading">
     <div class="section-heading"><div><p class="eyebrow">UUSIN ARTIKKELI</p><h2 id="latest-heading" class="visually-hidden">Uusin artikkeli</h2></div></div>
-    <article class="headline-article{% if newest.image %} has-image{% endif %}">
-      {% if newest.image %}
+    <article class="headline-article{% if newest.cover_image %} has-image{% endif %}">
+      {% if newest.cover_image %}
       <a class="headline-media" href="{{ newest.url | relative_url }}" aria-label="Lue artikkeli: {{ newest.title | escape }}">
-        <img src="{{ newest.image | relative_url }}" alt="" width="1200" height="630" decoding="async">
+        <img src="{{ newest.cover_image | relative_url }}" alt="" width="1200" height="630" decoding="async">
       </a>
       {% endif %}
       <div class="headline-copy">
@@ -37,9 +38,9 @@ layout: default
     <div class="post-grid">
       {% for post in next_articles %}
       <article class="post-card">
-        {% if post.image %}
+        {% if post.cover_image %}
         <a class="post-card-media" href="{{ post.url | relative_url }}" aria-label="Lue artikkeli: {{ post.title | escape }}">
-          <img src="{{ post.image | relative_url }}" alt="" width="1200" height="630" loading="lazy" decoding="async">
+          <img src="{{ post.cover_image | relative_url }}" alt="" width="1200" height="630" loading="lazy" decoding="async">
         </a>
         {% endif %}
         <div class="post-meta"><span>{{ post.content_type | default: 'Artikkeli' | escape }}</span><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: '%-d.%-m.%Y' }}</time></div>

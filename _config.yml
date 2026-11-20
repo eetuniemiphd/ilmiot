@@ -27,10 +27,16 @@ defaults:
     values:
       layout: article
       author: "Eetu Niemi"
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/ilmiot-jakokuva.jpg
+        width: 1200
+        height: 630
+        alt: "Eetu Niemi · Ilmiöt"
 
 author_site: "https://eetuniemi.fi"
-# Lisää halutessasi oma julkinen yhteydenottokanava.
-# Älä lisää henkilötietoja ilman omaa harkintaa.
 contact_email: ""
 
 exclude:
