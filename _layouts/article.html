@@ -15,7 +15,7 @@ layout: default
     <p class="lead">{{ page.description | escape }}</p>
     {% endif %}
     <div class="meta-row">
-      <span>{{ page.author | default: site.author | escape }}</span>
+      <span><a href="{{ '/tietoa/' | relative_url }}">{{ page.author | default: site.author | escape }}</a></span>
       {% if page.date %}
       <span>Julkaistu {{ page.date | date: '%-d.%-m.%Y' }}</span>
       {% endif %}

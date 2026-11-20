@@ -22,5 +22,9 @@ Ilmiöiden omien tekstien, kuvien ja kaavioiden oikeudet kuuluvat minulle, ellei
 
 ## Yhteydenotot
 
-- Lisää minusta ja muista julkaisuistani: [eetuniemi.fi]({{ site.author_site }})
-{% if site.contact_email != '' %}- Kommentit ja korjauspyynnöt: [{{ site.contact_email }}](mailto:{{ site.contact_email }}){% endif %}
+{% assign contact_email = site.contact_email | default: '' | strip %}
+{% if contact_email != '' %}
+Huomasitko virheen tai tiedätkö lähteen, joka jutusta puuttuu? Kirjoita osoitteeseen [{{ contact_email | escape }}](mailto:{{ contact_email | escape }}) ja kerro, mitä juttua viestisi koskee. Älä lähetä arkaluonteisia tietoja tai asiakirjoja tavallisella sähköpostilla.
+{% endif %}
+
+Lisää taustastani ja muista julkaisuistani löydät [kotisivultani]({{ site.author_site | default: 'https://eetuniemi.fi/' }}).

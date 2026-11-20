@@ -1,11 +1,19 @@
 <footer class="site-footer">
   <div class="shell footer-grid">
-    <div><strong>Eetu Niemi — Ilmiöt</strong><p>Seurantaa ja analyysiä monimutkaisista ilmiöistä, järjestelmistä ja päätöksistä.</p></div>
+    <div>
+      <strong>Eetu Niemi — Ilmiöt</strong>
+      <p>Analyysejä ja päivittyviä seurantoja teknologiasta, taloudesta, työelämästä ja yhteiskunnasta.</p>
+    </div>
     <div class="footer-links">
+      <a href="{{ '/tietoa/' | relative_url }}#yhteydenotot">Yhteystiedot</a>
       <a href="{{ '/periaatteet/' | relative_url }}">Toimitukselliset periaatteet</a>
       <a href="{{ '/tietosuoja/' | relative_url }}">Tietosuoja</a>
-      <a href="{{ site.author_site }}">eetuniemi.fi</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS-syöte</a>
+      <a href="{{ site.author_site | default: 'https://eetuniemi.fi/' | escape }}">eetuniemi.fi</a>
     </div>
   </div>
-  <div class="shell footer-bottom">© {{ 'now' | date: '%Y' }} {{ site.author }}. <span>Tämän sivuston sisältö ei edusta työnantajani näkemyksiä.</span></div>
+  <div class="shell footer-bottom">
+    © {{ 'now' | date: '%Y' }} {{ site.author | escape }}.
+    <span>Kirjoitukset edustavat omia näkemyksiäni, eivät työnantajani, asiakkaideni tai yhteistyötahojeni kantoja.</span>
+  </div>
 </footer>
