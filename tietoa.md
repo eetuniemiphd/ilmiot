@@ -27,4 +27,6 @@ Ilmiöiden omien tekstien, kuvien ja kaavioiden oikeudet kuuluvat minulle, ellei
 Huomasitko virheen tai tiedätkö lähteen, joka jutusta puuttuu? Kirjoita osoitteeseen [{{ contact_email | escape }}](mailto:{{ contact_email | escape }}) ja kerro, mitä juttua viestisi koskee. Älä lähetä arkaluonteisia tietoja tai asiakirjoja tavallisella sähköpostilla.
 {% endif %}
 
+Haastattelut ja asialliset toimitukselliset yhteistyöehdotukset ovat tervetulleita. En tee kaupallista vaikuttajayhteistyötä tai maksettuja tuotesuosituksia enkä osta näkyvyyttä. Pyytämättömät markkinointi- ja näkyvyystarjoukset merkitsen roskapostiksi.
+
 Lisää taustastani ja muista julkaisuistani löydät [kotisivultani]({{ site.author_site | default: 'https://eetuniemi.fi/' }}).
