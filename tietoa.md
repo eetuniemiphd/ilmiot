@@ -1,5 +1,5 @@
 ---
-title: Tietoa Ilmiöt-julkaisusta
+title: Tietoa julkaisusta
 description: "Ilmiöt on Eetu Niemen riippumaton verkkojulkaisu teknologiasta, taloudesta, työelämästä ja yhteiskunnasta. Analyysejä ja julkisiin lähteisiin perustuvia seurantoja."
 permalink: /tietoa/
 eyebrow: Julkaisijasta
